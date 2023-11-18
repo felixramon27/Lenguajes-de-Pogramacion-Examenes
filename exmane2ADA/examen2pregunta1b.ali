@@ -1,0 +1,103 @@
+V "GNAT Lib v2021"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_ANONYMOUS_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U examen2pregunta1b%b	examen2pregunta1b.adb	db7f0d77 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D examen2pregunta1b.adb	20231116033348 758bd81a examen2pregunta1b%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [examen2pregunta1b standard 5 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|3r6 3r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 11|3w10 3r27
+506U14*Put_Line 11|76s7 85s7 90s7
+X 11 examen2pregunta1b.adb
+5U11*examen2Pregunta1b 5b11 93l5 93t22
+7R8 Church 10e14
+8i7 Valor{integer} 15m41 15r52 23m37 23r48 23r58 30m37 30r48 30r58 69m40
+. 70m39 71m39 72m40 85r73 90r84
+9p7 Siguiente 15m63 17m13 23m65 30m65 69m52 70m51 71m51 72m52
+11P9 Church_Ptr 14r29 15r15 22r25 22r44 23r11 29r35 29r54 30r11 69r14 70r13
+. 71r13 72r14 73r19
+14U13 Suc 14b13 14=18 19l8 19t11 77s7 78s7 79s7 80s7 81s7 82s7
+14p18 N{11P9} 15r50 17r26 18m7
+15p7 Nuevo{11P9} 17r7 18r12
+22V12 Suma{11P9} 22b12 22>18 22>21 26l8 26t12 84s20
+22p18 X{11P9} 23r46
+22p21 Y{11P9} 23r56
+23p7 Z{11P9} 25r14
+29V12 Multiplicacion{11P9} 29b12 29>28 29>31 33l8 33t22 89s20
+29p28 X{11P9} 30r46
+29p31 Y{11P9} 30r56
+30p7 Z{11P9} 32r14
+36R8 Arbol 39e14
+37i7 Valor{integer} 47r21 47r32 58r54 58r64 60r50 60r60 74m38 74m74 74m110
+. 74m181 74m253 74m289 74m360
+38p7 Izquierda 47r55 47r106 58r15 58r44 63r39 63r110 74m50 74m86 74m122 74m193
+. 74m265 74m301 74m372
+38p18 Derecha 47r69 47r94 60r15 60r42 63r81 63r123 74m141 74m159 74m212 74m231
+. 74m320 74m338 74m391
+42V12 esEspejo{boolean} 42b12 42^21 42^25 47s43 47s82 51l8 51t16 63s99
+42p21 A1(36R8) 44r10 46r13 47r18 47r52 47r91
+42p25 A2(36R8) 44r24 46r28 47r29 47r66 47r103
+54V12 esMaxHeapSimetrico{boolean} 54b12 54^32 63s17 63s59 65l8 65t26 76s72
+54p32 A(36R8) 56r10 58r13 58r42 58r62 60r13 60r40 60r58 63r37 63r79 63r108
+. 63r121
+69p7 Cero{11P9} 84r25 89r35
+70p7 Uno{11P9} 77m11 77r11
+71p7 Dos{11P9} 78m11 78r11 79m11 79r11
+72p7 Tres{11P9} 80m11 80r11 81m11 81r11 82m11 82r11 84r31 89r41
+73p7 Resultado{11P9} 84m7 85r63 89m7 90r74
+74p7 A(36R8) 76r91
+

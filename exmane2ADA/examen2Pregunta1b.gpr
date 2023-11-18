@@ -1,0 +1,8 @@
+project examen2Pregunta1b is
+   for Object_Dir use "obj";
+   for Main use ("examen2Pregunta1b.adb");
+   
+   package Compiler is
+      for Default_Switches ("Ada") use ("-g");
+   end Compiler;
+end examen2Pregunta1b;

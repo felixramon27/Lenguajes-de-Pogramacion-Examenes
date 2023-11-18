@@ -1,0 +1,108 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_ANONYMOUS_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U examen2pregunta1b%b	examen2pregunta1b.adb	db7f0d77 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D examen2pregunta1b.adb	20231116025524 758bd81a examen2pregunta1b%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [examen2pregunta1b standard 3 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 11|1w10 1r27
+506U14*Put_Line 11|74s7 83s7 88s7
+X 11 examen2pregunta1b.adb
+3U11*examen2Pregunta1b 3b11 91l5 91t22
+5R8 Church 8e14
+6i7 Valor{integer} 13m41 13r52 21m37 21r48 21r58 28m37 28r48 28r58 67m40
+. 68m39 69m39 70m40 83r73 88r84
+7p7 Siguiente 13m63 15m13 21m65 28m65 67m52 68m51 69m51 70m52
+9P9 Church_Ptr 12r29 13r15 20r25 20r44 21r11 27r35 27r54 28r11 67r14 68r13
+. 69r13 70r14 71r19
+12U13 Suc 12b13 12=18 17l8 17t11 75s7 76s7 77s7 78s7 79s7 80s7
+12p18 N{9P9} 13r50 15r26 16m7
+13p7 Nuevo{9P9} 15r7 16r12
+20V12 Suma{9P9} 20b12 20>18 20>21 24l8 24t12 82s20
+20p18 X{9P9} 21r46
+20p21 Y{9P9} 21r56
+21p7 Z{9P9} 23r14
+27V12 Multiplicacion{9P9} 27b12 27>28 27>31 31l8 31t22 87s20
+27p28 X{9P9} 28r46
+27p31 Y{9P9} 28r56
+28p7 Z{9P9} 30r14
+34R8 Arbol 37e14
+35i7 Valor{integer} 45r21 45r32 56r54 56r64 58r50 58r60 72m38 72m74 72m110
+. 72m181 72m253 72m289 72m360
+36p7 Izquierda 45r55 45r106 56r15 56r44 61r39 61r110 72m50 72m86 72m122 72m193
+. 72m265 72m301 72m372
+36p18 Derecha 45r69 45r94 58r15 58r42 61r81 61r123 72m141 72m159 72m212 72m231
+. 72m320 72m338 72m391
+40V12 esEspejo{boolean} 40b12 40^21 40^25 45s43 45s82 49l8 49t16 61s99
+40p21 A1(34R8) 42r10 44r13 45r18 45r52 45r91
+40p25 A2(34R8) 42r24 44r28 45r29 45r66 45r103
+52V12 esMaxHeapSimetrico{boolean} 52b12 52^32 61s17 61s59 63l8 63t26 74s72
+52p32 A(34R8) 54r10 56r13 56r42 56r62 58r13 58r40 58r58 61r37 61r79 61r108
+. 61r121
+67p7 Cero{9P9} 82r25 87r35
+68p7 Uno{9P9} 75m11 75r11
+69p7 Dos{9P9} 76m11 76r11 77m11 77r11
+70p7 Tres{9P9} 78m11 78r11 79m11 79r11 80m11 80r11 82r31 87r41
+71p7 Resultado{9P9} 82m7 83r63 87m7 88r74
+72p7 A(34R8) 74r91
+

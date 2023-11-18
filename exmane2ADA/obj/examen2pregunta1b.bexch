@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__examen2pregunta1b.o
+[PROJECT FILES]
+C:\Users\Felix Arnos\OneDrive\Escritorio\Lenguajes de Programacion I\exmane2ADA\examen2Pregunta1b.gpr
+20231116030444 d755e0fa2e4d30e68b2f0360a89dc1a3
+[BOUND OBJECT FILES]
+C:\Users\Felix Arnos\OneDrive\Escritorio\Lenguajes de Programacion I\exmane2ADA\obj\examen2Pregunta1b.o
+[GENERATED SOURCE FILES]
+b__examen2pregunta1b.ads
+b__examen2pregunta1b.adb
+b__examen2pregunta1b.ali
+[RESULTING OPTIONS]
+-LC:\Users\Felix Arnos\OneDrive\Escritorio\Lenguajes de Programacion I\exmane2ADA\obj\
+-LC:\Users\Felix Arnos\OneDrive\Escritorio\Lenguajes de Programacion I\exmane2ADA\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
